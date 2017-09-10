@@ -1,4 +1,4 @@
-package com.acercow.reflect.exampleoter;
+package com.acercow.annotation;
 
 public class Person {
 

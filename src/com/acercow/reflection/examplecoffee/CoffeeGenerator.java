@@ -1,4 +1,4 @@
-package com.acercow.reflect.examplecoffee;
+package com.acercow.reflection.examplecoffee;
 
 import java.util.Iterator;
 import java.util.Random;
