@@ -1,4 +1,4 @@
-package com.acercow.reflect;
+package com.acercow.reflect.examplecoffee;
 
 /**
  * Created by Administrator on 2017/2/9.
@@ -6,14 +6,14 @@ package com.acercow.reflect;
 public class ClassInitialization {
 
     public static void main(String[] args) {
-//        System.out.println(com.acercow.reflect.Initable.staticNonFinal);
+//        System.out.println(com.acercow.reflect.examplecoffee.Initable.staticNonFinal);
 
 
         try {
 
             // forName()初始化statc block
-            Class<?> c = Class.forName("com.acercow.reflect.Initable");
-            Class<? extends Initable> fi = (Class<? extends Initable>) Class.forName("com.acercow.reflect.Finalable");
+            Class<?> c = Class.forName("com.acercow.reflect.examplecoffee.Initable");
+            Class<? extends Initable> fi = (Class<? extends Initable>) Class.forName("com.acercow.reflect.examplecoffee.Finalable");
 
             Class<? super Initable> inClass = Initable.class;
             Class<? super Initable> s = inClass.getSuperclass();

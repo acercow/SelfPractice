@@ -1,4 +1,4 @@
-package com.acercow.reflect;
+package com.acercow.reflect.examplecoffee;
 
 /**
  * Created by Administrator on 2017/2/8.
@@ -14,7 +14,7 @@ public class ToyTest {
         Class c = null;
 
         try {
-            c = Class.forName("com.acercow.reflect.FancyToy");
+            c = Class.forName("com.acercow.reflect.examplecoffee.FancyToy");
             printInfo(c);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

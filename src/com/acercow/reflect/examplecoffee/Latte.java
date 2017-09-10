@@ -1,4 +1,4 @@
-package com.acercow.reflect;
+package com.acercow.reflect.examplecoffee;
 
 /**
  * Created by Administrator on 2017/2/7.

@@ -1,4 +1,4 @@
-package com.acercow.reflect;
+package com.acercow.reflect.examplecoffee;
 
 import java.util.HashMap;
 import java.util.Map;

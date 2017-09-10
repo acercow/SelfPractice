@@ -1,4 +1,4 @@
-package com.acercow.refection;
+package com.acercow.reflect.exampleoter;
 
 import java.lang.reflect.Field;
 
