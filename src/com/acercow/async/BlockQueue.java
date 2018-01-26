@@ -22,11 +22,5 @@ public class BlockQueue  {
         }
     }
 
-    public Runnable dequeue() {
-        synchronized (taskQueue) {
-            if (taskQueue.size() <= 0) {
 
-            }
-        }
-    }
 }
