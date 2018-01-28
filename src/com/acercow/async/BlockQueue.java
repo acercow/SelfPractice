@@ -18,9 +18,18 @@ public class BlockQueue  {
             if (taskQueue.size() >= limit) {
                 taskQueue.wait();
             }
+            if (taskQueue.size() == 0) {
+                taskQueue.notifyAll();
+            }
             taskQueue.add(runnable);
         }
     }
 
-
+//    public Runnable dequeue() {
+//        synchronized (taskQueue) {
+//            if (taskQueue.size() <= 0) {
+//
+//            }
+//        }
+//    }
 }

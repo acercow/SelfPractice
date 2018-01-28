@@ -15,6 +15,13 @@ public class MutexTest {
         consumer1.start();
         consumer2.start();
         consumer3.start();
+
+        try {
+            Thread.sleep(10000);
+            System.exit(0);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
