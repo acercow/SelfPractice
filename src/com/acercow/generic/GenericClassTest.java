@@ -1,4 +1,4 @@
-package com.acercow.Generic;
+package com.acercow.generic;
 
 public class GenericClassTest {
 
